@@ -33,7 +33,7 @@ void ArrList::fix_the_problem(){//fixes an excess of data by making a new array 
 	if(!is_there_a_problem()){//  copying everything into the new array
 		return;
 	}
-	max;
+	//max;
 	char data2[max+100][100];
 	for(int i = 0; i<max; i++){
 		strcpy(data2[i],data[i]);
@@ -61,6 +61,7 @@ bool ArrList::push_back(const char *str){
 	strcpy(data[tail], str);
 	printf("added %s\n", data[tail]);
 	tail++;
+	return true;
 }
 
 char* ArrList::get(int n){
