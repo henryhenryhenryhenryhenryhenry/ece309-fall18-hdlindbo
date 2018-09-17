@@ -4,5 +4,4 @@ Repository for students to fork and modify.
 * ece 309
 * fall 2018
 
-[![Build Status](https://travis-ci.org/henryhenryhenryhenryhenryhenry
-/ece309-fall18-hdlindbo.svg?branch=master)](https://travis-ci.org/henryhenryhenryhenryhenryhenry/ece309-fall18-hdlindbo)
+https://travis-ci.com/henryhenryhenryhenryhenryhenry/ece309-fall18-hdlindbo.svg?token=APgGshqYttnPXiUvp9kS&branch=master
