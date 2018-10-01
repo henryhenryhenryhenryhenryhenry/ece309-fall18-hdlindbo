@@ -21,7 +21,7 @@ int main(){
 	
 	
 	PList::iterator it = l.begin();
-    while(!it.end() || counter>=100){
+    while(!it.end() || counter>=3){
 		//Item &copy = it.getItem();
 
 		//copy.print();
