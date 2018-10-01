@@ -3,6 +3,7 @@
 #include "PList.h"
 
 int main(){
+	int counter=0;
 	
 	StringItem *A = new StringItem("milk");
 	IntItem *B = new IntItem(5);
@@ -20,7 +21,7 @@ int main(){
 	
 	
 	PList::iterator it = l.begin();
-    while(!it.end()){
+    while(!it.end() || counter>=100){
 		//Item &copy = it.getItem();
 
 		//copy.print();
@@ -28,6 +29,7 @@ int main(){
 		it.itPrint();
 
 		it.increment();
+	    	counter++;
     }
 	
 	return 0;
