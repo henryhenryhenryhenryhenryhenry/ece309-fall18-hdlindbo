@@ -21,7 +21,7 @@ int main(){
 	
 	PList::iterator it = l.begin();
     while(!it.end()){
-		Item &copy = it.getItem();
+		//Item &copy = it.getItem();
 
 		//copy.print();
 		//it.getItem().print();
