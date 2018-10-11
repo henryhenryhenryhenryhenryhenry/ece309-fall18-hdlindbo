@@ -15,3 +15,4 @@ libece309.a: $(OBJ)
 
 %.o:%.cpp
 	$(CXX) -c -o $@ -I . -I ../include $< -Wall -Werror
+
