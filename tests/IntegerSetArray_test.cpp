@@ -1,4 +1,4 @@
-#include "IntegerSetArray.h"
+#include <IntegerSetArray.h>
 #include <stdio.h>
 
 int main()
