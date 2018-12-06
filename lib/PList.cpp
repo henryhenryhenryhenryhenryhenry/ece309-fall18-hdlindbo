@@ -2,6 +2,7 @@
 
 #include "PList.h"
 
+namespace ece309{
 PList::PList()
 {
   // start with an empty list
@@ -84,7 +85,7 @@ void PList::removeAfter(PList::iterator it) // pseudocode in zyBook 2.4
        delete remove; // delete node      // delete the removed node
      }
 }
-
+}
 
 /* int main()
 {
