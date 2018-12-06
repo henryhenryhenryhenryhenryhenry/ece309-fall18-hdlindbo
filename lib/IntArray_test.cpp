@@ -3,6 +3,8 @@
 #include <string.h>
 
 int main() {
+  using namespace ece309;
+  
   int testPassCnt = 0;
   int testFailCnt = 0;
 
@@ -114,7 +116,7 @@ int main() {
   }
 
   // test operator char*() const;
-  // resulting str = “A C” from {65, 9000, 67}
+  // resulting str = â€œA Câ€ from {65, 9000, 67}
   base.set(0, 65);
   base.set(1, 9000);
   base.set(2, 67);
