@@ -3,6 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+namespace ece309{
 class Intinf{
 protected:
 	int value;// numerical value of Intinf if it's not infinity, or if it is, its sign
@@ -235,8 +236,11 @@ public:
 		}
 	}
 };
-
+}
+	
 int main(){
+	using namespace ece309;
+	
 	Intinf x(-1, 1);
 	Intinf y(-1, 1);
 	
