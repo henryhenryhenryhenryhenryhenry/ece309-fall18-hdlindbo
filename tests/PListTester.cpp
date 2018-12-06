@@ -3,6 +3,8 @@
 #include "PList.h"
 
 int main(){
+	using namespace ece309;
+	
 	int counter=0;
 	
 	StringItem *A = new StringItem("milk");
