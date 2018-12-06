@@ -2,6 +2,7 @@
 #include <string.h>
 #include <stdlib.h>
 
+namespace ece309{
 class ArrList{
 	public:
 	
@@ -79,8 +80,11 @@ char* ArrList::remove_front(){
 	printf("the new head is %s\n", data[head]);
 	return tmp;
 }
-
+}
+	
 int main(){
+	using namespace ece309;
+	
 	ArrList L;
 	L.push_back("milk");
 	L.push_back("eggs");
