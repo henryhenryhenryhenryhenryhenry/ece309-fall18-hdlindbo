@@ -2,7 +2,10 @@
 #include <stdio.h>
 #include <string.h>
 
+
 int main() {
+  using namespace ece309;
+  
   int testPassCnt = 0;
   int testFailCnt = 0;
 
