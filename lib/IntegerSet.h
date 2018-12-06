@@ -7,7 +7,7 @@
 //#include <math.h>
 #include <stdlib.h>
 
-
+namespace ece309{
 // IntegerSet abstract base class to demonstrate hash table concepts
 class IntegerSet {
 protected:
@@ -65,7 +65,7 @@ public:
 		return Iterator(this);
 	}
 };
-
+}
 
 
 
