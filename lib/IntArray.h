@@ -4,6 +4,7 @@
 #include <stdio.h>
 #include <string.h>
 
+namespace ece309{
 class IntArray {
 public:
    int *array;
@@ -129,5 +130,6 @@ public:
        return array[index];
    }
 };
+}
 
 #endif //INTARRAY_H
