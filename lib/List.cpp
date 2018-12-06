@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+namespace ece309{
 class Item {
 public:
   const char * str;
@@ -143,9 +144,11 @@ bool List::remove(Item &copy){
 bool List::empty(){
   return head==NULL;
 }
-
+}
 
 int main(){
+	using namespace ece309;
+	
   List l;
 
   l.append(Item("milk"));
