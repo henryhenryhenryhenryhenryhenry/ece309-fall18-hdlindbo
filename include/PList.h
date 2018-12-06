@@ -3,6 +3,7 @@
 
 #include <stdio.h>
 
+namespace ece309{
 class Item {
 public:
   virtual void print(){printf("default\n");};
@@ -112,5 +113,5 @@ public:
   void removeAfter(iterator it); // pseudocode in zyBook 2.4
   void insertAfter(iterator it, Item item);
 };
-
+}
 #endif //PLIST_H
