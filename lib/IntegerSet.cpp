@@ -3,6 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+namespace ece309{
 // can only hold positive integers
 IntegerSetHT::IntegerSetHT(int htsize)
 :IntegerSet(htsize)
@@ -112,9 +113,10 @@ void IntegerSetHTChain::remove(int data)
    }
 }
 */
-
+}
 
 int main(){
+	using namespace ece309;
 	/*
 	int r = 0;
 	int c;
